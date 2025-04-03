@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing:border-box;
+}
+
+/* body */
+body {
+    font-family: Tahoma, sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: #fcf9f9;
+}
+
+/* body background */
+body::before {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+/* body class */
+.body {
+    background-image:url("images/photo.png");
+    background-size: cover;
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* form */
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* h2 */
+h2 {
+    color: #03000e;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    text-align: center;
+}
+
+/* h1 */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    text-align: center;
+}
+
+/* h3 */
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    text-align: center;
+}
+
+/* p */
+p {
+    font-family: Tahoma, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
